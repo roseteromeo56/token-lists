@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "tsdx watch",
+    "dev": "tsdx watch",
     "build": "tsdx build",
     "postbuild": "cp src/tokenlist.schema.json dist/tokenlist.schema.json",
     "test": "tsdx test",
